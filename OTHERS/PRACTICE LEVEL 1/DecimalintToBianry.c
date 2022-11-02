@@ -22,7 +22,7 @@ int main()
     //Now we have to print the binary number using reverse array printing
     printf("\nBinary Number: ");
 
-    for(int i=i-1; i>=0; i--) //"i=i-1" = printing from the last value of the Array, "i>=0" = we have to print till tan[0], "i--" = post decrement for printing values last to fast from the Array
+    for(i=i-1; i>=0; i--) //"i=i-1" = printing from the last value of the Array, "i>=0" = we have to print till tan[0], "i--" = post decrement for printing values last to fast from the Array
     {
          printf("%d", tan[i]); //print values last to fast from the Array
     }
